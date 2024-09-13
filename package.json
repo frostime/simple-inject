@@ -1,0 +1,24 @@
+{
+    "name": "simple-inject",
+    "version": "0.1.0",
+    "description": "A simple dependency injection tool",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build": "tsc",
+        "prepublishOnly": "npm run build"
+    },
+    "keywords": [
+        "dependency injection",
+        "di",
+        "typescript"
+    ],
+    "author": "frostime",
+    "license": "MIT",
+    "devDependencies": {
+        "typescript": "^4.5.5"
+    },
+    "files": [
+        "dist"
+    ]
+}
