@@ -4,6 +4,10 @@
     "description": "A simple dependency injection tool",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/frostime/simple-inject.git"
+    },
     "scripts": {
         "build": "tsc",
         "prepublishOnly": "npm run build"
